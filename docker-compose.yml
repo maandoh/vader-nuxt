@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  vader-nuxt:
+    build: .
+    container_name: vader-nuxt
+    image: maandoh/vader-nuxt:latest
+    restart: unless-stopped
+    ports:
+      - 3000:3000
