@@ -45,7 +45,7 @@ For detailed explanation on how things work, check out the Nuxt [documentation](
 
 ## Links
     
-GitHub: https://github.com/maandoh/vader-nuxt](https://github.com/maandoh/vader-nuxt)
+GitHub: [https://github.com/maandoh/vader-nuxt](https://github.com/maandoh/vader-nuxt)
 DockerHub: [https://hub.docker.com/repository/docker/maandoh/vader-nuxt](https://hub.docker.com/repository/docker/maandoh/vader-nuxt)
     
 ## Contributor
