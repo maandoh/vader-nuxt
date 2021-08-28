@@ -12,6 +12,7 @@ Try it out at [https://vader.casadi.la](https://vader.casadi.la).
 
 ## Running this project
 
+Choose either of the following:
 
 ### Running locally
 
@@ -40,3 +41,12 @@ From any command line, run:
 ## Extending this app with Nuxt
 
 For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
+
+
+## GitHub Link
+    
+    [https://github.com/cjhutto/vaderSentiment](https://github.com/cjhutto/vaderSentiment)
+    
+## Contributor
+
+- [James Ma](https://github.com/cjhutto/vaderSentiment)
