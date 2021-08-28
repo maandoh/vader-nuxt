@@ -1,20 +1,42 @@
 # vader-nuxt
 
-## Build Setup
+This is a web app written in Nuxt to run [vaderSentiment-js](https://github.com/vaderSentiment/vaderSentiment-js), 
+Javascript port of [VADER Sentiment Analysis tool](https://github.com/cjhutto/vaderSentiment).
 
-```bash
-# install dependencies
-$ yarn install
+VADER Sentiment Analysis. VADER (Valence Aware Dictionary and sEntiment Reasoner) is a lexicon and rule-based sentiment analysis tool that is specifically attuned to sentiments expressed in social media, and works well on texts from other domains.
 
-# serve with hot reload at localhost:3000
-$ yarn dev
+## Online demo
 
-# build for production and launch server
-$ yarn build
-$ yarn start
+Try it out at [https://vader.casadi.la](https://vader.casadi.la).
 
-# generate static project
-$ yarn generate
-```
+
+## Running this project
+
+
+### Running locally
+
+Clone this repo:
+
+    # install dependencies
+    $ yarn install
+
+    # serve with hot reload at localhost:3000
+    $ yarn dev
+    
+Access this application in your browser at `http://localhost:3000`.
+    
+### Running with Docker Compose
+
+Clone this repo and run:
+
+    sudo docker-compose up
+    
+### Running with Docker
+
+From any command line, run:
+
+    docker run -p 3000:3000 maandoh/vader-nuxt    
+
+## Extending this app with Nuxt
 
 For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
