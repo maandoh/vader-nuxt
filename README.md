@@ -32,22 +32,24 @@ Clone this repo and run:
 
     sudo docker-compose up
     
+Or, download the the `docker-compose.yml` file and run:
+
+    $ curl -sSL https://raw.githubusercontent.com/maandoh/vader-nuxt/main/docker-compose.yml > docker-compose.yml
+    $ docker-compose up -d
+    
 ### Running with Docker
 
 From any command line, run:
 
     docker run -p 3000:3000 maandoh/vader-nuxt    
 
-## Extending this app with Nuxt
-
-For detailed explanation on how things work, check out the Nuxt [documentation](https://nuxtjs.org).
-
-
 ## Links
     
 GitHub: [https://github.com/maandoh/vader-nuxt](https://github.com/maandoh/vader-nuxt)
 
-DockerHub: [https://hub.docker.com/repository/docker/maandoh/vader-nuxt](https://hub.docker.com/repository/docker/maandoh/vader-nuxt)
+DockerHub: [https://hub.docker.com/r/maandoh/vader-nuxt](https://hub.docker.com/r/maandoh/vader-nuxt)
+
+For detailed explanation on how Nuxt works, check out the [documentation](https://nuxtjs.org).
     
 ## Contributor
 
